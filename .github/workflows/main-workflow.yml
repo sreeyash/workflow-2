@@ -2,7 +2,7 @@ name: with-main-branch
 on:
   workflow_dispatch:
 jobs:
-  build:
+  main-testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
