@@ -1,4 +1,4 @@
-name: with-main-branch
+name: feature-branch
 on:
   workflow_dispatch:
 jobs:
@@ -9,5 +9,5 @@ jobs:
 
 
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Hello Sreeya!
         
