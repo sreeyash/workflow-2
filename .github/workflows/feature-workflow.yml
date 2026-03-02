@@ -1,9 +1,7 @@
 name: feature-branch
 
 on:
- push:
-    branches:
-      - feature-branch
+ workflow_dispatch: 
 
 jobs:
   feature-testing:
